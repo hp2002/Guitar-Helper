@@ -144,11 +144,11 @@ class Guitar():
         '''
         final_fretboard = []
         if key_number == '000':
-            for i in self.fret_matrix:
+            for strings in self.fret_matrix:
                 tstring = []
-                for j in i:
-                    if j in self.notes_in_key:
-                        tstring.append(j)
+                for notes in strings:
+                    if notes in self.notes_in_key:
+                        tstring.append(notes)
                     else:
                         tstring.append('-')
 
@@ -165,9 +165,9 @@ class Guitar():
                     if j in filtered_notes:
                         tstring.append(j)
                     else:
-                        tstring.append(' ')
+                        tstring.append('-')
                 
-                tstring.append(1)
+                # tstring.append(1)
                 final_fretboard.append(tstring)
         
         if key_number != '0':

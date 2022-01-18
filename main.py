@@ -21,4 +21,3 @@ user_input = '000'
 while user_input != '0':
     user_input = input('Enter the numbers in the key (0 to exit and 000 for all notes in the key)')
     guitar.show_key(user_input)
-
