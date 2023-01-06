@@ -10,8 +10,8 @@ Gelp allows you to choose notes of a key in any order and displays a fretboard w
 A simple use case of this application would be using it to make an indie melody on guitar. You would design a chord progression and use the corresponding numbers of the chords in the key as inputs, and voilà you have all the places on the fretboard that would act as an anchor when youre transposing a riff. You can also have all the notes in the key which would guide you to stay within the key.
 
 # How to use
-1. Navigate to the directory where the application is stored
-2. Run the following command to execute the *main.py* file
+1. Navigate to the directory where the application is stored.
+2. Run the following command to execute the *main.py* file.
 ```python3 main.py```
 3. You would see the following screen after running the code. (If you have any errors please check your python installation and try again)
 
@@ -27,10 +27,10 @@ A simple use case of this application would be using it to make an indie melody 
 
 6. There you go! You have a custom fretboard with the notes you wish to play with the song, Enjoy!
 
-# Future improvements
+# Potential Future improvements
 
-* Use of graphics to draw the fretboard instead of the command line interface
-* Options of major and minor keys for music composing
-* Scalaing the application and adding more features like note recognition, metronome, note synthesis, etc.
-* Adding support for other musical instruments
+* Use of graphics to draw the fretboard instead of the command line interface.
+* Addition of minor keys for music composing.
+* Scaling the application and adding more features like note recognition, metronome, note synthesis, etc.
+* Adding support for other musical instruments.
 
