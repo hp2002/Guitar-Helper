@@ -1,11 +1,11 @@
 # Gelp
-A creative tool that allows user to design the fretboard of their choice and help them play along with ease.
+A creative tool that allows users to design the fretboard of their choice and help them play along with ease.
 # Installation
 You would be required to [install python](https://www.python.org/downloads/) to run this application
 # Features
-New guitar players usually use online images of fretboards to finds the notes in the key they're trying to play, which is time consuming and is valuable time wasted in making redundant google searches!
+New guitar players usually use online images of fretboards to finds notes in a key they're trying to play in, which is time consuming and is valuable time wasted in making redundant google searches!
 
-Gelp allows you to choose notes of a key in any order and displays a fretboard with the location of the notes you wish to see! This would help any guitar player focus on the important notes and learn at faster pace. *(The current version of Gelp displays the fretboard on a command line interface which would change in the future.)*
+Gelp allows you to choose notes of a key in any order and shows the arrangement of the notes on the fretboard. This would help any guitar player focus on the important notes (by selecting only the notes of interest) and learn at faster pace. *(The current version of Gelp displays the fretboard on a command line interface which would change in the future.)*
 
 A simple use case of this application would be using it to make an indie melody on guitar. You would design a chord progression and use the corresponding numbers of the chords in the key as inputs, and voilà you have all the places on the fretboard that would act as an anchor when youre transposing a riff. You can also have all the notes in the key which would guide you to stay within the key.
 
